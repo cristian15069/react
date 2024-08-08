@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-import "./App.css";
+import './App.css'
 import { Square } from './components/Square.jsx'
 import { TURNS } from './constants.js'
 import { checkToWinner, checkEndGame } from './logic/board.js'
